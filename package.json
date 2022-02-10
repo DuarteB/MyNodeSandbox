@@ -1,0 +1,28 @@
+{
+  "name": "mynodesandbox",
+  "version": "1.0.0",
+  "description": "My project to write e discover codes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuarteB/MyNodeSandbox.git"
+  },
+  "author": "DuarteB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuarteB/MyNodeSandbox/issues"
+  },
+  "homepage": "https://github.com/DuarteB/MyNodeSandbox#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "consign": "^0.1.6",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "nodemon": "^2.0.15"
+  }
+}
